@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+}
+
+.img1,
+.img2 {
+  border-radius: 50%;
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contactUs_part2 {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.contactUs_part1 {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+label {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.inputs {
+  margin-bottom: 20px;
+  width: 50%;
+  height: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+.input_box {
+  padding: 30px;
+  font-size: 24px;
+}
+.input_button {
+  padding: 10px 15px;
+  border: 3px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: black;
+  color: aliceblue;
+  font-size: larger;
+}
+.td1 {
+  margin: 0%;
+}
+
+footer {
+  margin-top: 1000px;
+}

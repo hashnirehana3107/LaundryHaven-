@@ -1,0 +1,92 @@
+#thank-you-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#headings {
+  text-align: center;
+}
+
+#feedback-section {
+  display: grid;
+  place-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.star-rating {
+  direction: rtl;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.star-rating input {
+  display: none;
+}
+.star {
+  color: lightgray;
+  cursor: pointer;
+}
+.star:hover,
+.star:hover ~ .star {
+  color: gold;
+}
+input:checked ~ label {
+  color: gold;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  width: 188px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+}
+button:hover,
+.button:hover {
+  opacity: 0.8;
+}

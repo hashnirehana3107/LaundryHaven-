@@ -1,0 +1,50 @@
+.cart-item-txt{
+    text-align: center;
+    font-weight: bold;
+    font-size:64px;
+}
+.total-value-txt{
+    width:50%;
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+}
+.discount-value-txt{
+    width:50%;
+    float:right;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.discount-text{
+    text-align: center;
+    font-size: 24px;
+}
+.cart-td{
+    border: none;
+    margin-right: 12px;
+
+
+}
+.cart-items{
+    font-size: 19px;
+}
+.cart-button{
+    border: none;
+    padding:0%;
+    margin:24px;
+    
+}
+.remove-button{
+    border:none;
+    background-color: red;
+    color:white;
+}
+.pay-now-btn{
+    background-color:blue;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+}
